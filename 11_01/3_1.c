@@ -7,8 +7,8 @@ int main(){
     scanf("%d",&a);
     printf("整数B:");
     scanf("%d",&b);
-    if (a%b)
-       puts("B不是A的约数。");
+    if (a%b){
+       puts("B不是A的约数。");}
     else
        puts("B是A的约数。");
     return 0;   
