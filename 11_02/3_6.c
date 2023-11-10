@@ -9,8 +9,8 @@ int main(){
     scanf("%d",&b);
     printf("整数C:");
     scanf("%d",&c);
-    if (a<b & a<c) printf("最小值为%d",a);
-    else if (b<a & b<c) printf("最小值为%d",b);
+    if (a<b && a<c) printf("最小值为%d",a);
+    else if (b<a && b<c) printf("最小值为%d",b);
     else printf("最小值为%d",c);
     return 0;
 
