@@ -8,7 +8,7 @@ int main(){
     while (no>0){
         putchar('+');
         no--;
-       if(--no>0){
+       if(no-->0){
             putchar('-');
         }
     }
