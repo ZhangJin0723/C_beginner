@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "4_9.C": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
