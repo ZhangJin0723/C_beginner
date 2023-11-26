@@ -29,17 +29,13 @@ int main(){
     printf("输入要查找的值：");
     scanf("%d",&key);
 
-
-    if(j!=0){
+    if(search_idx(nums,idx,key,NUM)!=FAILED){
         printf("有%d个值为%d.\n",search_idx(nums,idx,key,NUM),key);
-
         for(i=0;i<j;i++){
             printf("%d",idx[i]);
         }
-    }else{
-        printf("没有找到%d",key);
-    }
-
+    }else {printf("没有找到%d",key);}
+  
 
     
 
